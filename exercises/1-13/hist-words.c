@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX 15
+#define MAX 100
 
 int main(){
 
@@ -21,9 +21,11 @@ int main(){
 
 	printf("\n");
 	for (int i=0;i<MAX;i++){
-		printf("%d\t", i);
-		for (int j=0; j<heights[i]; ++j) printf("|");
-		printf("\n");
+		if (heights[i] != 0){
+			printf("%d\t", i);
+			for (int j=0; j<heights[i]; ++j) printf("|");
+			printf("\n");
+		}
 	}
 
 	return 0;
