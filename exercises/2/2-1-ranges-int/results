@@ -1,0 +1,28 @@
+
+        --- CHAR LIMITS ---
+
+bits in a CHAR:         8
+min CHAR                -128
+max CHAR:               127
+max UNISIGNED CHAR:     255
+min SIGNED CHAR         -128
+max SIGNED CHAR:        127
+
+        --- SHORT LIMITS ---
+
+min SHORT               -32768
+max SHORT               32767
+max UNSIGNED SHORT      65535
+
+        --- INT LIMITS ---
+
+min INT                 -2147483648
+max INT                 2147483647
+max UNSIGNED INT        4294967295
+
+        --- LONG LIMITS ---
+
+min LONG                -9223372036854775808
+max LONG                9223372036854775807
+max UNSIGNED LONG       18446744073709551615
+

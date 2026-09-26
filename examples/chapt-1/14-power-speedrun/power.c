@@ -16,7 +16,7 @@ int main(){
 // definition :c
 int power(int base, int exp){
 	int p;
-	for (p = 1; n>0; --n)
+	for (p = 1; exp>0; --exp)
 		p = p * base;
 	return p;
 }
