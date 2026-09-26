@@ -1,12 +1,7 @@
 #!/bin/bash
 
 # update the solved problems
-rm README.txt;
-touch temp;
-echo "Examples Exercises" >> temp;
-paste -d" " <(ls examples/) <(ls exercises/) >> temp;
-column -t -s ' ' temp > README.txt;
-rm temp;
+cat <(tree -L 2 exercises/) <(tree -L 2 examples/) > README.txt;
 # do the git stuff
 git add .
 read -p "Message to commit: " msg;
