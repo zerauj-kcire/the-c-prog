@@ -1,6 +1,6 @@
 
 
-2026-09-28 01:40                     CONTENTS                     Page 1
+2026-09-28 02:23                     CONTENTS                     Page 1
 
 
 exercises/			    examples/
@@ -45,6 +45,7 @@ exercises/			    examples/
 				    │   ├── 19-condit-pager
 				    │   └── 20-cond-items
 				    └── chapt-3
+				    	└── 01-bin-search
 				    
-				    42 directories, 0 files
+				    43 directories, 0 files
 
