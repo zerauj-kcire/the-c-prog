@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # update the solved problems
-cat <(tree -L 2 exercises/) <(tree -L 2 examples/) > README.txt;
+pr -2 -h "Exercises" <(tree -L 2 exercises/) >  README.txt;
+pr -2 -h "Examples" <(tree -L 2 examples/)   >> README.txt;
 # do the git stuff
 git add .
 read -p "Message to commit: " msg;
