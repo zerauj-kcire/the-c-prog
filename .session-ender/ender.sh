@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # update the solved problems
-pr -m <(tree -L 2 exercises/ --compress=3) <(tree -L 2 examples/ --compress=3) \
+pr -m <(tree -L 2 exercises/) <(tree -L 2 examples/) \
  	-f -h "CONTENTS" > README.txt;
 # do the git stuff
 git add .
