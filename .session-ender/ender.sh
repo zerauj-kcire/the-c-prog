@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # update the solved problems
-pr -m <(ls exercises/*) <(ls examples/*) -f -h "CONTENTS" > README.txt;
+paste -d" " <(ls exercises/*) <(ls examples/*) | column -t -s " " \
+	| pr -f -h "CONTENTS" -o 8 > README.txt;
 # do the git stuff
 git add .
 read -p "Message to commit: " msg;
