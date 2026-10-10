@@ -1,6 +1,6 @@
         
 
-        2026-10-08 10:40                     CONTENTS                     Page 1
+        2026-10-09 19:30                     CONTENTS                     Page 1
 
 
              EXERCISES                               EXAMPLES                           
@@ -31,8 +31,8 @@
         07                                      05-string-length                        
         08                                      06-leap-years                           
                                                 07-enum-const                           
-                                                08-enum-exs                             
-                                                09-const                                
+        exercises/chapt-3:                      08-enum-exs                             
+        03-expand                               09-const                                
                                                 10-convert-str-to-int                   
                                                 11-lower                                
                                                 12-pseudo-rand                          
@@ -47,4 +47,8 @@
                                                 20-cond-items                           
                                                 examples/chapt-3:                       
                                                 01-bin-search                           
+                                                02-wc--lcm                              
+                                                03-str-to-int                           
+                                                04-shellsort                            
+                                                05-revrese-string                       
 
