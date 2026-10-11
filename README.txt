@@ -1,6 +1,6 @@
         
 
-        2026-10-10 20:42                     CONTENTS                     Page 1
+        2026-10-11 12:24                     CONTENTS                     Page 1
 
 
              EXERCISES                               EXAMPLES                           
@@ -27,7 +27,7 @@
         03-htoi                                 01-print-out                            
         04-tr--d                                02-escape-seqs                          
         05-string-index-return                  03-octal                                
-        06                                      04-hex                                  
+        06-setbits                              04-hex                                  
         07                                      05-string-length                        
         08                                      06-leap-years                           
                                                 07-enum-const                           

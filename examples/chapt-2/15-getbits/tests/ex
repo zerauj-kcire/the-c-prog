@@ -1,0 +1,21 @@
+[kcire@polgar 15-getbits]$ ./gb.c.out 
+GIVE AN UNSIGNED INT X: 243
+GIVE A POS P: 6
+GIVE A NUM OF BITS N: 2
+X = 00011110011
+getbits(X,P,N): 3
+GB= 00000000011
+[kcire@polgar 15-getbits]$ ./gb.c.out 
+GIVE AN UNSIGNED INT X: 243
+GIVE A POS P: 6
+GIVE A NUM OF BITS N: 3
+X = 00011110011
+getbits(X,P,N): 7
+GB= 00000000111
+[kcire@polgar 15-getbits]$ ./gb.c.out 
+GIVE AN UNSIGNED INT X: 243
+GIVE A POS P: 6
+GIVE A NUM OF BITS N: 4
+X = 00011110011
+getbits(X,P,N): 14
+GB= 00000001110
