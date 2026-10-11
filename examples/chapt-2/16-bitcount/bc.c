@@ -3,7 +3,7 @@
 int bitcount(unsigned x); // counts the number of 1s in x.
 
 int main(){
-	unsigned x; x = 511;
+	unsigned x; x = 1022;
 	printf("%d", bitcount(x));
 	return 0;
 }

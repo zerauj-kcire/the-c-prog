@@ -1,6 +1,6 @@
         
 
-        2026-10-09 19:30                     CONTENTS                     Page 1
+        2026-10-10 20:42                     CONTENTS                     Page 1
 
 
              EXERCISES                               EXAMPLES                           
@@ -37,10 +37,12 @@
                                                 11-lower                                
                                                 12-pseudo-rand                          
                                                 13-squeeze                              
+                                                14.5-get-bits-of-integer                
+                                                14.6-bit-ops-visualizator               
                                                 14-bitwise-and-or                       
                                                 14-bitwise-left-shift                   
                                                 14-bitwise-sixth-to-zero                
-                                                15                                      
+                                                15-getbits                              
                                                 16-bitcount                             
                                                 18-condit-max                           
                                                 19-condit-pager                         
